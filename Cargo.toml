@@ -1,0 +1,5 @@
+[package]
+name = "table_const"
+version = "0.1.0"
+authors = ["WuBoy"]
+edition = "2018"
