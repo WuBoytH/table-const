@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-pub const FIGHTER_KIND:                    i32 = 0x2;
+pub const KIND:                            i32 = 0x2;
 pub const OBJECT_ID:                       i32 = 0x3;
 pub const FIGHTER:                         i32 = 0x4;
 pub const MODULE_ACCESSOR:                 i32 = 0x5;
@@ -11,17 +11,17 @@ pub const STATUS_KIND_INTERRUPT:           i32 = 0x9;
 pub const PREV_STATUS_KIND:                i32 = 0xA;
 pub const STATUS_KIND:                     i32 = 0xB;
 pub const STATUS_COUNT:                    i32 = 0xC;
- 
-pub const MOTION_FRAME:                    i32 = 0xE;
-pub const MOTION_FRAME_NO_INTERP:          i32 = 0xF;
- 
+
+pub const STATUS_FRAME:                    i32 = 0xE;
+pub const STATUS_FRAME_NO_INTERP:          i32 = 0xF;
+
 pub const SUB_STATUS3:                     i32 = 0x13;
 pub const SUB_STATUS2:                     i32 = 0x14;
 pub const SUB_STATUS:                      i32 = 0x15;
 pub const SITUATION_KIND:                  i32 = 0x16;
 pub const PREV_SITUATION_KIND:             i32 = 0x17;
 pub const PREV_STATUS_FRAME:               i32 = 0x18;
- 
+
 pub const STICK_X:                         i32 = 0x1A;
 pub const STICK_Y:                         i32 = 0x1B;
 pub const FLICK_X:                         i32 = 0x1C;
@@ -59,6 +59,7 @@ pub const CHECK_SPECIAL_COMMAND:           i32 = 0x3C;
 pub const WAZA_CUSTOMIZE_CONTROL:          i32 = 0x3D;
 pub const STATUS_END_CONTROL:              i32 = 0x3E;
 
+pub const DAMAGE_MOTION_KIND_CALLBACK:     i32 = 0x42;
 pub const SUB_UNIQ_DAMAGE_FLY_UNIQ:        i32 = 0x43;
 pub const DOWN_DAMAGE_UNIQ:                i32 = 0x44;
 pub const THROW_F_STATUS_KIND:             i32 = 0x45;
@@ -70,7 +71,7 @@ pub const SUB_REBIRTH_UNIQ_INIT_CORE_UNIQ: i32 = 0x4A;
 pub const SUB_REBIRTH_UNIQ_EXEC_UNIQ:      i32 = 0x4B;
 pub const SUB_DEAD_UNIQ_INIT_UNIQ:         i32 = 0x4C;
 pub const SUB_ROULETTE_SET_SETP_UNIQ:      i32 = 0x4D;
-pub const FALL_UNIQ:                       i32 = 0x4E;
+pub const FALL_BRAKE_UNIQ:                 i32 = 0x4E;
 pub const CHECK_GROUND_GUARD_UNIQ:         i32 = 0x4F;
 pub const CHECK_GROUND_CATCH_UNIQ:         i32 = 0x50;
 pub const CHECK_COMMAND_WALK_UNIQ:         i32 = 0x51;
